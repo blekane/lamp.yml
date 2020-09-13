@@ -1,0 +1,13 @@
+---
+ - hosts: k8s
+   tasks:
+           - name: Apply changes to my app
+             command: kubectl apply -f /opt/kubernetes/bertin1/deploy.yml
+             ignore_errors: yes
+
+
+~
+~
+~
+~
+
